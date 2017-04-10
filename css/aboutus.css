@@ -1,0 +1,133 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	font-size: 16px;
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+    overflow-x: hidden;
+    background: #F5F6FA;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+img{
+	display: block;
+}
+.header{
+	width: 3.75rem;
+	height: 0.45rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background: rgba(0,123,227,.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.banner{
+	width: 100%;
+	height: 2.105rem;
+	background-image: url(../img/banner4.jpg);
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.goldtitle{
+	width: 3.51rem;
+	height: 0.31rem;
+	margin: 0.1rem auto;
+}
+.goldtitle a{
+	display: inline-block;
+	color: #333;
+	font-size: 0.14rem;
+}
+.aboutuscontent{
+	width: 3.51rem;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+}
+.aboutuscontent h2{
+	width: 3rem;
+	height: 0.2rem;
+	margin: 0 auto;
+	border-bottom: 1px dashed #333;
+	padding:0 0.1rem 0.1rem;
+	font-size: 0.14rem;
+	position: relative;
+	color: #333;
+}
+.aboutuscontent span{
+	display: block;
+	width: 3rem;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+	padding:0 0.1rem 0.2rem;
+	font-size: 0.12rem;
+	color: #666;
+	word-break: break-all;	
+}
+.aboutuscontent .shu{
+	width: 0.05rem;
+	height: 0.12rem;
+	background:#01B5FF;
+	position: absolute;
+	top: 0.04rem;
+	left: 0rem;
+}
+.aboutuscontent .aboutpicc{
+	width: 3.51rem;
+	height: 1.1rem;
+	display: flex;
+	flex-direction: row;
+	padding-top: 0.1rem;
+	justify-content: space-around;
+}
+.aboutuscontent .aboutpicc img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.aboutuscontent .passion{
+	width: 3.2rem;
+	height: 0.2rem;
+	margin: 0 auto;
+	line-height: 0.2rem;
+	padding-top: 0.1rem;
+	color: #333;
+	font-size: 0.12rem;
+	padding-bottom: 0.1rem;
+}
+.quickly{
+	display: block;
+	width: 0.74rem;
+	height: 0.74rem;
+	margin: 0.2rem auto;
+	background-image: url(../img/about_004.png);
+	background-size: cover;
+}
+.copy{
+	color: #333;
+	font-size: 0.12rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.icp{
+	color: #333;
+	font-size: 0.12rem;
+	text-align: center;
+}
+
